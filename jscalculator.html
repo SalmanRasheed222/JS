@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min.js.map"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+
+
+var fvalue, svalue;
+var choice, operation;
+
+
+do
+{
+	
+	fvalue = parseFloat(prompt("Enter First Value"));
+
+	
+	operation = (prompt("Enter Operator"))
+	
+	
+	svalue  = parseFloat(prompt("Enter First Value"));
+
+
+	if (operation == '+')
+	{
+		alert("Result: " + (fvalue + svalue));
+	}
+
+	else if (operation == '-')
+	{
+        alert("Result: " + (fvalue - svalue));
+    }
+
+	else if (operation == '*')
+	{
+        alert("Result: " + (fvalue * svalue));
+	}
+
+	else if (operation == '/')
+	{
+		alert("Result: "+(fvalue / svalue));
+	}
+	else
+	{
+		Console.WriteLine("Wrong Input...");
+	}
+
+
+	
+    choice = (prompt("did you want to use calculator? Press Y to Continue or press any key to exit."));
+	
+
+
+} while (choice == 'y' || choice == 'Y');
+
+alert("good bye...");
+
+</script>
